@@ -1,2 +1,1 @@
-# AP_GQL
-GraphQL API for annual project
+PostgreSQL API based on Apollo GraphQL to gain access to the main DB
