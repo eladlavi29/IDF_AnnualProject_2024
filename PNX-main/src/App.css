@@ -1,8 +1,0 @@
-.bg {
-    background-image: url("src/images/temp_map.png");
-    height: 100vh;
-    display: flex;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
