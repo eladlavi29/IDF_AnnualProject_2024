@@ -1,0 +1,26 @@
+import { DataSource } from "typeorm";
+
+// using host: "host.docker.internal" enables reaching the postgres database
+
+
+// PostgreSQL DataSource
+const postgresDataSource = new DataSource({
+  type: "postgres",
+  host: process.env.POSTGRES_HOST || "host.docker.internal",
+  port: parseInt(process.env.POSTGRES_PORT, 10) || 5432,
+  username: process.env.POSTGRES_USER || "postgres",
+  password: process.env.POSTGRES_PASSWORD || "1234",
+  database: process.env.POSTGRES_DB || "postgres",
+});
+
+// MongoDB DataSource
+const mongodbDataSource = new DataSource({
+  type: "mongodb",
+  host: process.env.MONGO_HOST || "host.docker.internal",
+  port: parseInt(process.env.MONGO_PORT, 10) || 27017,
+  database: process.env.MONGO_DB || "mongodb",
+  username: process.env.MONGO_USER || "root",
+  password: process.env.MONGO_PASSWORD || "example",
+});
+
+export { postgresDataSource, mongodbDataSource };
