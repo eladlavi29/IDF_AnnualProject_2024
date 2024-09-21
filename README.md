@@ -14,7 +14,6 @@ Supervised by Yaron Hay, Etay Davran, Opan Maman and Avichai Sabag.
 
 Students: Omer Daube, Nizan Kafman Raz, Mayan Rousso, Elad Lavi, Erez Koifman and Amir Bourvine.
 
-![alt text](https://github.com/eladlavi29/Y24_IDF/blob/main/image.jpg?raw=true)
-(https://github.com/eladlavi29/Y24_IDF/blob/main/Poster.jng)
+![alt text](https://github.com/eladlavi29/Y24_IDF/blob/main/Poster.jpg?raw=true)
 
 For further details please refer to /Documentation.
